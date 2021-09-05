@@ -1,0 +1,47 @@
+body:before {
+    content: "";
+    position: fixed;
+    z-index: -1;
+    background-size:cover;
+    background-position:center top;
+    display: block;
+    background-image: url(img/gunung.jpg);
+    width: 100%;
+    height: 100%;
+    filter: blur(2px) ;
+    -webkit-filter: blur(2px) ;
+}
+  
+
+
+.jumbotron{
+   text-align: center;
+}
+
+.jumbotron .display-4{
+    margin-top:50px ;
+    font-family: uppercase;
+    font-size: 100px;
+}
+
+.btn{
+    box-shadow: 5px -5px 30px rgba(0, 0, 0,1); 
+    transition: .3s;
+}
+
+.btn:hover{
+    background: rgba(0, 0,0, 0.6);
+    color: aqua;
+}
+.cx{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav-item{
+    transition: .3s;
+}
+
+.nav-item:hover{
+    background: transparent;
+    text-shadow:2px 15px 25px rgba(0, 0,0, 0.6);
+}
